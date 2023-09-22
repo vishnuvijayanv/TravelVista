@@ -150,7 +150,7 @@ h1{
 
 
 .booking{
-    background-image: url("https://toastmasterscdn.azureedge.net/medias/images/pubs-and-magazine/2020-digital-magazine/02/paris-awaits/toastmasters-9-paris-france.png");
+    /* background-image: url("https://toastmasterscdn.azureedge.net/medias/images/pubs-and-magazine/2020-digital-magazine/02/paris-awaits/toastmasters-9-paris-france.png"); */
     height: 100%;
     object-fit: fill;
     
@@ -241,22 +241,22 @@ video{
 
 
 
-
+/* 
   .footer {
-    background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
+    /* background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 100% ;
+    background-position: center; */
+    /* width: 100% ;
     height: auto;
     position: relative;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
-  }
+  /* } */ */
   
-  #footer .links {
+  /* #footer .links {
     position: relative;
     color: black;
     display: flex;
@@ -264,7 +264,7 @@ video{
     justify-content: center;
     align-items: center;
   }
-   
+    */
   .links ul {
     list-style-type: none;
     
@@ -407,7 +407,9 @@ video{
 
   
   footer {
-    background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
+    /* background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png"); */
+    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+
     width: 100% ;
     height: auto;
 
@@ -447,13 +449,18 @@ video{
     margin-top: 20px;
 }
 
-.btn {
+.btnn {
     display: inline-block;
     padding: 10px 20px;
     background-color: #333;
     color: white;
     text-decoration: none;
     margin-right: 10px;
+}
+.btnb{
+    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+
+
 }
 
 .btn-locate {
@@ -463,12 +470,6 @@ video{
     color: grey;
     font-family: 'Noto Serif', serif;
 }
-/* animation */
-@keyframes slideInLeft {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
+.list li{
+    color: white;
+}

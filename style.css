@@ -1,0 +1,474 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+body{
+    overflow-x: hidden;
+}
+about-para
+.nav-con{
+    height: 70px;
+    
+}
+
+
+.navbar-brand{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.navhov:hover{
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px aqua;
+
+
+}
+
+.a-head{
+    color: aqua;
+}
+
+.card-img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.card-text1{
+    
+    padding-bottom: 450px;
+    font-size: 60px;
+    text-align: justify;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+}
+
+
+.home-btn{
+    margin-bottom: 30px;
+}
+
+.btn1{
+   
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.btn2{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+    
+
+.btn-cl1{
+    border: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-left: 550px;
+    margin-top:-450px;
+    position: absolute;
+
+}
+
+.btn-cl2{
+    border: 1px solid grey;
+   
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top:-450px;
+    position: absolute;
+
+}
+
+.btns:hover{
+    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+
+}
+h1{
+    text-align: center;
+}
+
+
+
+#prc{
+    color: cyan;
+}
+
+.more{
+    border: 2px solid aqua;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 500px;
+
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.more-a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.vid{
+    width: 50%;
+}
+
+.booking{
+    height: 75px;
+    font-family: 'Noto Serif', serif;
+    text-align: justify;
+}
+
+.first-row{
+    display: flex;
+}
+
+.sec-row{
+    display: flex;
+}
+
+
+.booking{
+    background-image: url("https://toastmasterscdn.azureedge.net/medias/images/pubs-and-magazine/2020-digital-magazine/02/paris-awaits/toastmasters-9-paris-france.png");
+    height: 100%;
+    object-fit: fill;
+    
+}
+h1{
+    color: grey;
+    font-family: 'Noto Serif', serif;
+
+}
+.card{
+    transition: transform .1s;
+
+
+}
+
+.card:hover{
+    box-shadow: 3px 3px 20px   #cc0066 ;
+    /* transform: rotate(10deg);
+    transform: rotate(-10deg); */
+    transform: scale(1.05);
+
+
+}
+/* 
+.pcard img {
+    transition: transform .2s;
+}
+
+.pcard img:hover{
+    transform: scale(1.2);
+} */
+
+.card-para{
+    opacity: 0;
+
+}
+
+.card-para:hover{
+    opacity: 1;
+}
+.mcard p{
+    text-align: justify;
+
+}
+.about-para{
+    font-weight: lighter;
+    color: grey;
+    font-family: 'Noto Serif', serif;
+
+}
+#about{
+    background-color:white;
+}
+video{
+    border-radius: 5px;
+}
+
+
+.reserv{
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.reserv p{
+    color: white;
+    display: flex;
+}
+
+.book-btn{
+    /* padding-left: 100px; */
+    margin-left: 100px;
+}
+
+
+.card-title{
+   
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    text-align:center;
+}
+.card-text li{
+    color: grey;
+    font-family: 'Noto Serif', serif;
+}
+.btn-read{
+    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+}
+
+
+
+
+
+  .footer {
+    background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100% ;
+    height: auto;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  #footer .links {
+    position: relative;
+    color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .links ul {
+    list-style-type: none;
+    
+  }
+  
+  .links h3 {
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  .links a{
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    cursor: pointer;
+    padding: 15px 0;
+    color: black;
+  }
+  
+  .links  li {
+    font-family: 'Noto Serif', serif;
+    cursor: pointer;
+    padding: 15px 0;
+  }
+  .contact{
+    margin-right: 500px;
+    margin-top: 100px;
+  }
+  .navi{
+    margin-left:500px;
+    margin-top: -230px;
+  }
+  .Support{
+    margin-right: 500px;
+    margin-left: 1000px;
+    margin-top: -330px;
+
+  }
+
+
+  
+  .about-para{
+    font-weight: lighter;
+    color: grey;
+    font-family: 'Noto Serif', serif;
+  }
+
+  .services {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-item {
+  
+    padding: 50px 10px;
+    border: lightcyan solid 1px;
+    text-align: center;
+    margin: 40px 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .service-item:hover {
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px 20px #cc0066 ;
+  }
+  
+  .service-item h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    width: 120px;
+    color: #001f38;
+   
+  }
+  
+  .service-item img {
+    width: 60px;
+    height: 60px;
+   
+  }
+  
+.packagecard{
+    border-radius: 10px;
+}
+.rating{
+    margin-left: 100px;
+}
+.checked{
+    color: yellow;
+}
+.card-text{
+    font-family: 'Noto Serif', serif;
+    
+
+
+}
+.card-footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);}
+.sechead{
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #cc0066;
+
+}
+.btnp{
+    color: white;
+}
+.card-footer a{
+    text-decoration: none;
+}
+/* footer */
+
+
+  
+  a {
+    color: black;
+
+       font-family: 'Noto Serif', serif;
+
+    text-decoration: none;
+  
+  }
+  .ic{
+    color: black;
+
+    font-family: 'Noto Serif', serif;
+
+ text-decoration: none;
+
+  }
+ 
+  
+
+  
+  footer {
+    background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
+    width: 100% ;
+    height: auto;
+
+  }
+  
+.res1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* more css */
+
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+   
+}
+
+.photo {
+    flex: 1;
+    
+    margin: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-locate {
+    background-color: #ff6600;
+}
+.sechead li{
+    color: grey;
+    font-family: 'Noto Serif', serif;
+}
+/* animation */
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

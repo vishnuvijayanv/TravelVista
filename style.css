@@ -11,17 +11,21 @@ about-para
 }
 
 
+
 .navbar-brand{
     color: black;
     font-size: 40px;
     font-weight: bolder;
 }
+.navhov a{
+    font-family: 'Noto Serif', serif;
+
+}
 
 .navhov:hover{
     border: 2px solid gray;
     border-radius: 5px;
-    box-shadow: 3px 3px 10px aqua;
-
+background-color: #cc0066;
 
 }
 
@@ -37,6 +41,15 @@ about-para
 .card-text1{
     
     padding-bottom: 450px;
+    font-size: 60px;
+    text-align: justify;
+    font-family: 'Noto Serif', serif;
+    position: relative;
+}
+
+.card-text2{
+    
+    padding-bottom: 550px;
     font-size: 60px;
     text-align: justify;
     font-family: 'Noto Serif', serif;
@@ -62,6 +75,7 @@ about-para
     font-size: larger;
     font-weight: bolder;
 }
+
 
     
 
@@ -165,32 +179,6 @@ h1{
 
 
 }
-
-.card:hover{
-    box-shadow: 3px 3px 20px   #cc0066 ;
-    /* transform: rotate(10deg);
-    transform: rotate(-10deg); */
-    transform: scale(1.05);
-
-
-}
-/* 
-.pcard img {
-    transition: transform .2s;
-}
-
-.pcard img:hover{
-    transform: scale(1.2);
-} */
-
-.card-para{
-    opacity: 0;
-
-}
-
-.card-para:hover{
-    opacity: 1;
-}
 .mcard p{
     text-align: justify;
 
@@ -241,68 +229,6 @@ video{
 
 
 
-/* 
-  .footer {
-    /* background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    /* width: 100% ;
-    height: auto;
-    position: relative;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center; */
-
-  /* } */ */
-  
-  /* #footer .links {
-    position: relative;
-    color: black;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-  }
-    */
-  .links ul {
-    list-style-type: none;
-    
-  }
-  
-  .links h3 {
-    font-family: 'Noto Serif', serif;
-    font-weight: normal;
-    font-size: 23px;
-    margin-bottom: 15px;
-  }
-  .links a{
-    text-decoration: none;
-    font-family: 'Noto Serif', serif;
-    cursor: pointer;
-    padding: 15px 0;
-    color: black;
-  }
-  
-  .links  li {
-    font-family: 'Noto Serif', serif;
-    cursor: pointer;
-    padding: 15px 0;
-  }
-  .contact{
-    margin-right: 500px;
-    margin-top: 100px;
-  }
-  .navi{
-    margin-left:500px;
-    margin-top: -230px;
-  }
-  .Support{
-    margin-right: 500px;
-    margin-left: 1000px;
-    margin-top: -330px;
-
-  }
 
 
   
@@ -314,7 +240,7 @@ video{
 
   .services {
     display: flex;
-    flex-flow: row;
+    /* flex-flow: row; */
     align-items: center;
     justify-content: center;
   }
@@ -333,7 +259,8 @@ video{
   
   .service-item:hover {
     background-color: lightsteelblue;
-    box-shadow: 3px 3px 20px #cc0066 ;
+    box-shadow: 3px 3px 20px #cc0066 ;  
+    /* horizontal vertical blur radius */
   }
   
   .service-item h2 {
@@ -361,6 +288,7 @@ video{
 }
 .card-text{
     font-family: 'Noto Serif', serif;
+    text-align: justify;
     
 
 
@@ -407,8 +335,8 @@ video{
 
   
   footer {
-    /* background-image: url("https://www.dlmtravel.co.za/wp-content/uploads/2019/11/footer.png"); */
-    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+    /* background-image: url("https://travelfar-tickets.com/wp-content/uploads/2016/09/Travel-PNG-Photos.png"); */
+    background-color: lightblue;
 
     width: 100% ;
     height: auto;
@@ -452,13 +380,14 @@ video{
 .btnn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    /* background-color: #333; */
+    color: black;
     text-decoration: none;
     margin-right: 10px;
 }
 .btnb{
-    background: linear-gradient(to left, #ff5050 0%, #cc0066 100%);
+    background-color: lightblue;
+    /* background: linear-gradient(to left, #ff5050 0%, #cc0066 100%); */
 
 
 }
@@ -472,4 +401,53 @@ video{
 }
 .list li{
     color: white;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 20px #cc0066 ;  
+
+
+}
+
+#contact-us {
+    padding: 70px 0px;
+  }
+  .Contact{
+    /* background-image: url("https://www.you.co/sg/wp-content/uploads/sites/2/2023/02/site-11.jpg"); */
+  }
+ .send-btn{
+    background-color: #cc0066;
+    align-items: center;
+ }
+ .btn-contact{
+    background-color: lightblue;
+ }
+
+ .bgmore{
+    background-image: url("https://image.slidesdocs.com/responsive-images/background/colorful-silhouette-city-beam-powerpoint-background_344bacc4eb__783_440.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+ }
+ .pimage img{
+    border-radius: 10px;
+    height: 400px;
+ }
+ .pheading{
+    float: left;
+ }
+ .phead{
+    /* margin-top:-60px; */
+    color:#cc0066;
+    font-size: 40px;
+    /* margin-left: -150px; */
+    font-weight:lighter;
+    font-family: 'Dancing Script', cursive;
+
+   
+ }
+.ptext{
+    color: gray;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+
 }
